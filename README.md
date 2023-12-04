@@ -8,8 +8,18 @@ Each day's puzzle has its own directory. For example, the solution for the puzzl
 
 ## Running the Solutions
 
-Each solution is a standalone script. To run a solution, navigate to the directory for that day's puzzle and run the script using Node.js. For example:
+Each solution is a standalone script. To run a solution, use Node.js to run the script in the root directory of the repository.
+
+For example:
 
 ```bash
-cd Day01
-node solution.js
+node Day01/solution.js
+```
+
+The solution will be included in the file `solution.txt` in the same directory.
+
+To run the tests of a day's solution, use the `test` script in the root directory of the repository. For example:
+
+```bash
+yarn test day01
+```
