@@ -28,10 +28,11 @@ for (const line of input) {
     if(prevChar !== '.') sum1 += parseInt(match[0]);
     else if(nextChar !== '.') sum1 += parseInt(match[0]);
     else if(prevLine){
-
+      // Check diagonally the line above
+      
     }
     else if(nextLine){
-      
+
     }
   }
 }
